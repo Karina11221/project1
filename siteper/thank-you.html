@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script>
+      (function(){
+            var width = screen.width;
+            var oldViewport = document.querySelector('meta[name="viewport"]');
+            var viewport = document.createElement('meta');
+            viewport.setAttribute('name', 'viewport');
+            viewport.setAttribute('content', 'width=' + (width <= 480 ? '480' : 'device-width'));
+            document.head.replaceChild(viewport, oldViewport);
+      })();
+    </script> 
+    <title>Спасибо за заявку</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico"/>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      
+      <header class="two-title" id="home">
+        <div class="container">
+          <div class="header-top">
+            <a href="index.html" class="header-top__logo"></a>
+            <div class="header-top__block">
+              Location
+              <div class="russia" onclick='location.href="https://www.google.ru/maps/place/пр.+Труда,+72,+Воронеж,+Воронежская+обл.,+394019/@51.673222,39.1623072,17z/data=!3m1!4b1!4m5!3m4!1s0x413b2ec497b13def:0xe8b99a04f0e6ad14!8m2!3d51.673222!4d39.1644959"'>
+              Russia, Voronezh
+              </div>
+            </div>
+  
+          </div>
+          <div class="header-content">
+            <h1>Thank you for the application.</h1>
+            <p>We will contact you shortly</p>
+       
+            <a href="index.html" class="btn-end">Return to website</a>
+          </div>
+        </div>
+      </header>
+
+    </div>
+
+  </body>
+</html>

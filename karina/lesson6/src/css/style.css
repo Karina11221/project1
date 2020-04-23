@@ -1,0 +1,24 @@
+bobody{
+	margin: 0;
+}
+.text{
+	margin-top: 70px;
+ text-align: center;
+ margin-bottom: 82px;
+ display: block;color: #333333;
+font-family: Tahoma;
+font-size: 24px;
+font-weight: 700;
+}
+.img-text{
+	color: #333333;
+font-family: Tahoma;
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+}
+.img-photo{
+	text-align: center;
+	min-height: 78px;
+	margin-bottom: 9px;
+}
